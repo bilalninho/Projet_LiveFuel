@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "📊 Analyse des tendances des prix du carburant :"
+echo " Analyse des tendances des prix du carburant :"
 echo "---------------------------------------------"
 
 # Lire le fichier CSV et trier par date
@@ -19,7 +19,7 @@ sort -t ',' -k3 prix_carburants.csv | awk -F ',' '
             tendance="➖ Stable";
         }
     } else {
-        tendance="ℹ️ Première donnée";
+        tendance=" Première donnée";
     }
     
     dernier_prix[carburant] = prix_actuel;
