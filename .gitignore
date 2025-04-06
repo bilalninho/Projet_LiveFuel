@@ -35,7 +35,7 @@ prix_carburants_temp.txt
 prix_carburants.xml
 
 # 🔐 Fichiers sensibles
-app-key.pem
+app-key.pem # je l'ai finalement enlevé
 
 # 📦 Infos d’installation / build Python
 *.egg
